@@ -30,3 +30,9 @@
     transform: rotate(360deg);
   }
 }
+
+div.search-bar-wrapper i.fab, div.search-bar-wrapper i.far {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
