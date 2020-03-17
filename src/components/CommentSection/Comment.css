@@ -11,13 +11,21 @@
   width: 100%;
 }
 .comment-form input {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   font-size: 14px;
   padding: 10px;
   border: none;
   border-top: 1px solid #efefef;
   color: #999;
+  background:none;
+  position: relative;
 }
+
+.comment-form input:active, .comment-form input:focus {
+  outline: none;
+}
+
 .user {
   font-size: 14px;
   margin-left: 5px;
